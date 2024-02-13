@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/neurodivergent-accessibility/static/css/main.9d889ffc.css",
-    "main.js": "/neurodivergent-accessibility/static/js/main.0f9e5baa.js",
+    "main.js": "/neurodivergent-accessibility/static/js/main.9d6cd8e2.js",
     "static/media/banner.png": "/neurodivergent-accessibility/static/media/banner.228c1b085c409397c983.png",
     "static/media/banner4.png": "/neurodivergent-accessibility/static/media/banner4.4b962ecb5ce2668f280c.png",
     "static/media/hero_image.png": "/neurodivergent-accessibility/static/media/hero_image.26d93eab47e4be48ea95.png",
@@ -32,10 +32,10 @@
     "static/media/icon_writing.png": "/neurodivergent-accessibility/static/media/icon_writing.09a6ee1aad32888e93e3.png",
     "index.html": "/neurodivergent-accessibility/index.html",
     "main.9d889ffc.css.map": "/neurodivergent-accessibility/static/css/main.9d889ffc.css.map",
-    "main.0f9e5baa.js.map": "/neurodivergent-accessibility/static/js/main.0f9e5baa.js.map"
+    "main.9d6cd8e2.js.map": "/neurodivergent-accessibility/static/js/main.9d6cd8e2.js.map"
   },
   "entrypoints": [
     "static/css/main.9d889ffc.css",
-    "static/js/main.0f9e5baa.js"
+    "static/js/main.9d6cd8e2.js"
   ]
 }
