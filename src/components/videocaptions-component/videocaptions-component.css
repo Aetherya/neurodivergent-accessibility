@@ -1,0 +1,110 @@
+.videoCaptionsComponent__video {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+
+    max-width: 500px;
+    aspect-ratio: 16/9;
+    min-width: 100%;
+
+    background: radial-gradient(var(--off-white), var(--orange));
+    border: 1px solid var(--pink);
+    border-radius: 5px;
+}
+
+.videoCaptionsComponent__video__captions {
+    position: absolute;
+    border-radius: 5px;
+
+    background-color: rgba(92, 45, 72, 0.6);
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px black;
+
+    margin: 5px;
+    padding: 10px;
+
+    text-align: left;
+    z-index: 1;
+
+    cursor: pointer;
+    user-select: none;
+    top: 55%;
+    left: 26%;
+}
+
+.videoCaptionsComponent__video__top {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+    padding: 15px;
+
+    opacity: 0.7;
+}
+
+.videoCaptionsComponent__video__top>* {
+    text-shadow: 0 0 1px var(--off-white);
+    filter: drop-shadow(0 0 2px var(--off-white));
+}
+
+.videoCaptionsComponent__avatar {
+    width: 30px;
+    height: 30px;
+}
+
+.videoCaptionsComponent__video__bottomwrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.videoCaptionsComponent__video__bottomwrapper>hr {
+    width: 90%;
+    margin-bottom: 0;
+
+    border: 2px solid var(--pink);
+    filter: saturate(0.5) contrast(1.2) hue-rotate(-10deg) invert(30%) brightness(1) saturate(2);
+}
+
+.videoCaptionsComponent__video__bottom {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px 20px;
+}
+
+.videoCaptionsComponent__video__bottomleft,
+.videoCaptionsComponent__video__bottomright {
+    display: flex;
+    gap: 15px;
+}
+
+.videoCaptionsComponent__icons {
+    height: 22px;
+    width: auto;
+
+    filter: saturate(0.5) contrast(1.2) hue-rotate(-10deg) invert(30%) brightness(1) saturate(2) drop-shadow(0 0 2px var(--off-white));
+}
+
+.videoCaptionComponent__caption-button {
+    background: none;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    display: flex;
+}
+
+.indicator-captions {
+    filter: saturate(1);
+
+    cursor: pointer;
+}
+
+.indicator-captions:hover {
+    filter: saturate(2) contrast(2) brightness(1.2);
+}

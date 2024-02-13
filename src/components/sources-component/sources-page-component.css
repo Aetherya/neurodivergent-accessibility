@@ -1,0 +1,16 @@
+.source_claim::before {
+    content: '“';
+    margin-right: 5px;
+}
+
+.source_claim::after {
+    content: '”';
+    margin-left: 5px;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}

@@ -1,0 +1,17 @@
+.wrapperComponentExample {
+    flex: 1;
+}
+
+.wrapperComponent__example {
+    min-height: 200px;
+
+    background-color: var(--orange);
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 35px 20px;
+    align-items: center;
+}

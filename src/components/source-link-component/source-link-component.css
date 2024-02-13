@@ -1,0 +1,24 @@
+.source_link,
+.source_link:visited {
+    margin-left: 5px;
+    vertical-align: super;
+    font-size: 12px;
+    user-select: none;
+
+    text-decoration: none;
+}
+
+.source_link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+
+.link__dark,
+.link__dark:visited {
+    color: var(--orange);
+}
+
+.link__dark:hover {
+    color: var(--pink);
+}

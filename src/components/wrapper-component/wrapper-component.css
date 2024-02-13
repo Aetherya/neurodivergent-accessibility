@@ -1,0 +1,35 @@
+.bold {
+    font-weight: 600;
+}
+
+.wrapperComponent {
+    margin: 50px auto;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.wrapperComponent__title {
+    color: var(--mauve);
+}
+
+.wrapperComponent__flex {
+    display: flex;
+    justify-content: center;
+
+    gap: 40px;
+    padding: 0 30px;
+
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    @media (max-width: 820px) {
+        padding: 0;
+    }
+}
+
+.wrapperComponent__example__title {
+    margin: 0;
+    margin-bottom: 10px;
+}

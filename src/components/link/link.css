@@ -1,0 +1,11 @@
+.link {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 600;
+
+    margin-left: 15px;
+}
+
+.link:hover {
+    color: var(--pink);
+}

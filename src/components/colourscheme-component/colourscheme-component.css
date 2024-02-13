@@ -1,0 +1,76 @@
+.colourSchemeComponent__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.colourSchemeComponent__bad,
+.colourSchemeComponent__good {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    row-gap: 0;
+}
+
+.colourSchemeComponent__bad__inner,
+.colourSchemeComponent__good__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colourSchemeComponent__colour {
+    width: 70px;
+    height: 70px;
+    background-color: var(--mauve);
+    border-radius: 50%;
+    border: 1px solid var(--dark);
+}
+
+.colourSchemeComponent__colour__hash {
+    color: var(--mauve);
+    margin-right: 4px;
+}
+
+#bad__colour1 {
+    background-color: #FFFFFF;
+}
+
+#good__colour1 {
+    background-color: #F4EDE4;
+}
+
+#bad__colour2 {
+    background-color: #ECB22E;
+}
+
+#good__colour2 {
+    background-color: #FED4BE;
+}
+
+#bad__colour3 {
+    background-color: #E01E5A;
+}
+
+#good__colour3 {
+    background-color: #C05B8C;
+}
+
+#bad__colour4 {
+    background-color: #36C5F0;
+}
+
+#good__colour4 {
+    background-color: #78D7DD;
+}
+
+#bad__colour5 {
+    background-color: #4A154B;
+    border-color: var(--pink);
+}
+
+#good__colour5 {
+    background-color: #7C2852;
+    border-color: var(--pink);
+}

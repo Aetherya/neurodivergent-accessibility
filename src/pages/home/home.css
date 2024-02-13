@@ -1,0 +1,155 @@
+/* HERO & TITLE */
+.hero {
+    position: relative;
+
+    max-height: 400px;
+    overflow: hidden;
+    background-image: url('../../assets/hero_image.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hero_image {
+    width: 100%;
+}
+
+.hero_header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    @media (max-width: 700px) {}
+}
+
+.hero_header__hr {
+    width: 40%;
+    border: 1px solid var(--pink);
+
+    margin-top: 40px;
+}
+
+.hero_headline {
+    border-radius: 2px;
+    padding: 3px 15px;
+
+    margin-bottom: 30px;
+}
+
+.hero_subtitle {
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-align: center;
+}
+
+.banner {
+    max-height: 400px;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+/* CONTENT */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 50px;
+    padding: 30px 0;
+
+    @media (max-width: 700px) {
+        margin: 0 20px;
+    }
+}
+
+.content__image {
+    width: 100%;
+    max-width: 800px;
+
+    margin: 30px 0;
+}
+
+.content__image__wrapper {
+    text-align: center;
+}
+
+.content__image__wrapper__vertical {
+    float: right;
+
+    @media (max-width: 700px) {
+        float: none;
+        text-align: center;
+    }
+}
+
+.header_divider {
+    width: 80px;
+
+    border: 2px solid var(--mauve);
+
+    margin: -15px 0 40px;
+}
+
+.introduction__intro-video {
+    aspect-ratio: 16/9;
+    max-width: 400px;
+    width: 100%;
+
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+    border: none;
+
+    @media (max-width: 700px) {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+.introduction__disclaimerwrapper {
+    clear: both;
+
+    display: flex;
+    gap: 20px;
+
+    background-color: var(--orange);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.introduction__disclaimericon {
+    width: 30px;
+    height: 28px;
+
+    margin-top: 5px;
+}
+
+.storyset__wrapper {
+    float: right;
+    margin-left: 20px;
+
+    @media (max-width: 700px) {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+.storyset_icon {
+    width: 320px;
+    margin-bottom: 5px;
+}
+
+.storyset__left {
+    float: left;
+    margin-left: 20px;
+
+    @media (max-width: 700px) {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}

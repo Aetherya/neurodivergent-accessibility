@@ -1,0 +1,64 @@
+.audioTranscriptComponent__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+button {
+    background-color: var(--dark);
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    padding: 10px 15px;
+
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: var(--pink);
+    color: var(--off-white);
+
+    cursor: pointer;
+}
+
+audio {
+    color: white;
+    width: 100%;
+    max-width: 400px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: var(--off-white);
+}
+
+audio::-webkit-media-controls-current-time-display {
+    color: var(--pink);
+}
+
+.audioTranscriptComponent__audio__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.audioTranscriptComponent__audio-button-wrapper {
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+}
+
+.audioTranscriptComponent__transcript>* {
+    padding: 10px;
+    color: var(--dark);
+}
+
+.active-line {
+    background: var(--off-white);
+    border-radius: 2px;
+
+    font-weight: 500;
+    color: black;
+}

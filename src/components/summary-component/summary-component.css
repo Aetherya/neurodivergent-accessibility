@@ -1,0 +1,29 @@
+.component__summary__wrapper {
+    text-align: left;
+
+    background-color: var(--orange);
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+
+.component__summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: left;
+
+    color: var(--dark);
+}
+
+.component__summary__image {
+    width: 17px;
+}
+
+.component__summary__title {
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    color: var(--pink);
+
+    font-size: 18px;
+}

@@ -1,0 +1,44 @@
+.tooltipComponent__wrapper {
+    position: relative;
+}
+
+.tooltipComponent__tip {
+    position: absolute;
+    background-color: var(--dark);
+    text-align: left;
+
+    width: 200px;
+    bottom: 40px;
+    left: 50%;
+
+    padding: 5px 10px;
+
+    border-radius: 5px;
+
+    font-size: 14px;
+    color: white;
+
+    display: none;
+
+    transform: translateX(-50%);
+}
+
+.tooltipComponent__tip__after {
+    position: absolute;
+    width: 0;
+    height: 0;
+
+    left: 50%;
+
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid var(--dark);
+
+    margin-top: 5px;
+
+    transform: translateX(-50%);
+}
+
+.tooltipComponent__tip__show {
+    display: block;
+}
